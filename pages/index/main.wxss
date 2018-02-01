@@ -62,7 +62,9 @@
         top: 50%;
         left: 50%;
         margin-left: -6.77778rem;
-        margin-top: -6.72222rem; }
+        margin-top: -6.72222rem;
+        background: url("https://github.com/wishedy/happyNewYear/blob/master/images/loading_dog.gif?raw=true") no-repeat center 50%;
+        background-size: contain; }
       .happy-container .happy-mask .happy-loading .happy-loading-des {
         position: absolute;
         line-height: 2.44444rem;
