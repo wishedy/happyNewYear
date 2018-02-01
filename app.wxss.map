@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAW;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,KAAK;EACd,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,gHAAgH;EAC5H,eAAe,EAAE,KAAK",
+"sources": ["app.scss"],
+"names": [],
+"file": "app.wxss"
+}
