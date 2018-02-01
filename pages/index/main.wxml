@@ -4,7 +4,15 @@
             <input type="text" placeholder="请输入您的姓名"/>
         </view>
         <view class="happy-create">
+            <button class="happy-btn">生成我的新年汪汪</button>
+        </view>
+        <view class="happy-mask">
+            <view class="happy-loading">
+                <view class="happy-loading-img">
 
+                </view>
+                <view class="happy-loading-des"></view>
+            </view>
         </view>
     </view>
 </view>
