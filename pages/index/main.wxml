@@ -1,3 +1,10 @@
 <view class="container">
+    <view class="happy-container">
+        <view class="happy-name-input">
+            <input type="text" placeholder="请输入您的姓名"/>
+        </view>
+        <view class="happy-create">
 
+        </view>
+    </view>
 </view>
