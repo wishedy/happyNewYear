@@ -63,5 +63,15 @@
         left: 50%;
         margin-left: -6.77778rem;
         margin-top: -6.72222rem; }
+      .happy-container .happy-mask .happy-loading .happy-loading-des {
+        position: absolute;
+        line-height: 2.44444rem;
+        color: #fff;
+        width: 8.33333rem;
+        left: 50%;
+        margin-left: -4.16667rem;
+        font-size: 1.05556rem;
+        bottom: 1.66667rem;
+        text-align: center; }
 
 /*# sourceMappingURL=main.wxss.map */
