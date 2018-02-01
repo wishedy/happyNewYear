@@ -6,7 +6,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  z-index: 1; }
   .happy-container .happy-name-input {
     width: 11.27778rem;
     height: 2.22222rem;
@@ -44,8 +45,23 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.45); }
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 2; }
     .happy-container .happy-mask .happy-loading {
-      width: 18.55556rem; }
+      width: 18.55556rem;
+      height: 16.94444rem;
+      background: url("https://raw.githubusercontent.com/wishedy/happyNewYear/master/images/loading.png") no-repeat center 50%;
+      background-size: cover;
+      margin: 10rem auto 0 auto;
+      position: relative; }
+      .happy-container .happy-mask .happy-loading .happy-loading-img {
+        width: 13.55556rem;
+        height: 10.11111rem;
+        background: #f4ebb5;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -6.77778rem;
+        margin-top: -6.72222rem; }
 
 /*# sourceMappingURL=main.wxss.map */
