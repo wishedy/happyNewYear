@@ -1,0 +1,3 @@
+<view class="popup-container">
+    <p>{{title}}</p>
+</view>

@@ -1,18 +1,18 @@
 <view class="container">
     <view class="happy-container">
         <view class="happy-name-input">
-            <input type="text" placeholder="请输入您的姓名"/>
+            <input type="text" placeholder="请输入您的姓名" value="{{inputName}}" bindinput="nameInput"/>
         </view>
-        <view class="happy-create">
+        <view class="happy-create" bindtap="createMyDes">
             <button class="happy-btn">生成我的新年汪汪</button>
         </view>
-        <view class="happy-mask">
+        <view class="happy-mask" wx:if='{{loading}}'>
             <view class="happy-loading">
                 <view class="happy-loading-img">
-
                 </view>
                 <view class="happy-loading-des">专属汪汪生成中</view>
             </view>
         </view>
     </view>
+    <popup wx:if="{{errorDes}}"></popup>
 </view>
