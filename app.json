@@ -1,9 +1,7 @@
 {
   "pages": [
-    "pages/bless/bless"
-
-
-
+    "pages/bless/bless",
+    "pages/index/main"
   ],
   "window": {
     "navigationBarTitleText": "Demo"

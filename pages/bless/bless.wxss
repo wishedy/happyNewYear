@@ -1,3 +1,35 @@
-
+.bless-container {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: relative;
+  background: url("https://raw.githubusercontent.com/wishedy/happyNewYear/master/images/bless.png") no-repeat 0 0;
+  background-size: 100% 100%;
+  border: 1px solid #333; }
+  .bless-container .bless-inner-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+    .bless-container .bless-inner-container .bless-title {
+      color: #d14646;
+      font-size: 1.22222rem;
+      margin: 3.61111rem auto 0 auto;
+      text-align: center;
+      display: block;
+      font-weight: bold; }
+    .bless-container .bless-inner-container .bless-content {
+      font-size: 1.83333rem;
+      margin: 5.27778rem auto 0 auto;
+      text-align: center;
+      display: block; }
+      .bless-container .bless-inner-container .bless-content .bless-item {
+        display: block;
+        margin: 0 auto;
+        color: #d14646;
+        line-height: 3.33333rem;
+        font-family: 'STXingkai'; }
 
 /*# sourceMappingURL=bless.wxss.map */

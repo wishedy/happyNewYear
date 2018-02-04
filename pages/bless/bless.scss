@@ -1,0 +1,39 @@
+@import "../../scss/utilities";
+.bless-container{
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: relative;
+  background: url("https://raw.githubusercontent.com/wishedy/happyNewYear/master/images/bless.png") no-repeat 0 0;
+  background-size: 100% 100%;
+  border: 1px solid #333;
+  .bless-inner-container{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    .bless-title{
+      color: #d14646;
+      font-size: rem(44px);
+      margin: rem(130px) auto 0 auto;
+      text-align: center;
+      display: block;
+      font-weight: bold;
+    }
+    .bless-content{
+      font-size: rem(66px);
+      margin: rem(190px) auto 0 auto;
+      text-align: center;
+      display: block;
+      .bless-item{
+        display: block;
+        margin: 0 auto;
+        color: #d14646;
+        line-height: rem(120px);
+        font-family: 'STXingkai';
+      }
+    }
+  }
+}
