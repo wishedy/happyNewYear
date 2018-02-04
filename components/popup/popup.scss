@@ -19,6 +19,8 @@
     border-radius: 8px;
     text-align: center;
     color: #fff;
+    -webkit-transition: opacity .3s linear;
+    transition: opacity .3s linear;
     background: rgba(10,30,43,0.5);
   }
 }

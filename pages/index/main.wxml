@@ -14,5 +14,5 @@
             </view>
         </view>
     </view>
-    <popup wx:if="{{errorDes}}"></popup>
+    <popup title="{{errorStr}}" id="popup"></popup>
 </view>
