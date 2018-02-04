@@ -1,11 +1,12 @@
 <view class="bless-container">
     <view class="bless-inner-container">
-        <p class="bless-title">您的专属新年祝福:</p>
+        <p class="bless-title">{{userName}}在新的一年,祝福你(您):</p>
         <p class="bless-content">
-            <span class="bless-item">笑口常开</span>
+            <span wx:for="{{blessList}}" class="bless-item">{{item}}</span>
+            <!--<span class="bless-item">笑口常开</span>
             <span class="bless-item">工作顺利</span>
             <span class="bless-item">万事亨通</span>
-            <span class="bless-item">大展宏图</span>
+            <span class="bless-item">大展宏图</span>-->
         </p>
     </view>
 </view>
